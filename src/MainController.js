@@ -20,15 +20,14 @@ module.exports = [
     function($scope, $sce, showdown, texts, frenchify) {
         $scope.txt = texts;
 
-        function convert(from, convertMarkdown, convertFrenchify) {
-            var converted = from;
+        function convert(content, convertMarkdown, convertFrenchify) {
             if (convertFrenchify) {
-                converted = frenchify(converted);
+                content = frenchify(content);
             }
             if (convertMarkdown) {
-                converted = showdown.makeHtml(converted);
+                content = showdown.makeHtml(content);
             }
-            return converted;
+            return content;
         }
 
         $scope.convert = function() {
