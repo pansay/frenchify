@@ -4,7 +4,12 @@
     "from": "from",
     "html": "html output",
     "rendered": "rendered output",
-    "frenchify": "frenchify",
+    "nolang": "no language",
+    "lang": {
+    	"fr": "frenchify",
+    	"en": "englishify"
+    },
+    "helpers": "helpers",
     "markdown": "markdown to html",
     "convert": "convert"
 }

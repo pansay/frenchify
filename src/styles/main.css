@@ -75,6 +75,14 @@ textarea {
     font-size: .75em;
 }
 
+.radios {
+    float: left;
+}
+
+    .radio {
+        float: left;
+    }
+
 .checkbox {
     float: left;
 }

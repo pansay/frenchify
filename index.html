@@ -15,9 +15,28 @@
     <div class="main">
         <form>
 
+            <fieldset class="radios">
+
+                <label class="radio">
+                    {{txt.nolang}}
+                    <input type="radio" data-ng-model="convert.lang" value="" data-ng-change="convert()" />
+                </label>
+
+                <label class="radio">
+                    {{txt.lang.fr}}
+                    <input type="radio" data-ng-model="convert.lang" value="fr" data-ng-change="convert()" />
+                </label>
+
+                <label class="radio">
+                    {{txt.lang.en}}
+                    <input type="radio" data-ng-model="convert.lang" value="en" data-ng-change="convert()" />
+                </label>
+
+            </fieldset>
+
             <label class="checkbox">
-                {{txt.frenchify}}
-                <input type="checkbox" data-ng-model="convert.frenchify" data-ng-change="convert()" />
+                {{txt.helpers}}
+                <input type="checkbox" data-ng-model="convert.helpers" data-ng-change="convert()" />
             </label>
 
             <label class="checkbox">
