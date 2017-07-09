@@ -2,3 +2,4 @@ node_modules
 target
 work
 dist
+.DS_Store
