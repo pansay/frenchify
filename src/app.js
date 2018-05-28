@@ -9,6 +9,7 @@ angular.module('frenchify', [])
     .constant('rules', require('../rules/rules.json'))
     .constant('rules_langs', {
         fr: require('../rules/rules-fr.json'),
-        en: require('../rules/rules-en.json')
+        en: require('../rules/rules-en.json'),
+        es: require('../rules/rules-es.json')
     })
     .controller('MainController', require('./MainController'));

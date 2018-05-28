@@ -81,6 +81,7 @@ textarea {
 
     .radio {
         float: left;
+        clear: left;
     }
 
 .checkbox {
