@@ -16,7 +16,7 @@
         "to": "<sup><a href=\"#footnote-$1\" id=\"fn-ref-$1\">$1</a></sup>"
     },
     {
-        "from": "^\\((\\d*)\\)",
+        "from": "^\\((\\d*?-?\\d*)\\)",
         "to": "<sup><a href=\"#fn-ref-$1\" id=\"footnote-$1\">$1</a></sup>"
     }
 ]
