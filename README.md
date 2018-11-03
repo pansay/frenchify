@@ -1,26 +1,9 @@
-# frenchify
-Convert .md French text to html compliant with [French typography rules](http://liberpedia.net/s/ponctuation.jpg) and some useful exta formatting.
+# Frenchify
 
-## rules
+* Convert .md text to html
+* Apply language specific typographical rules
+* Do some useful exta formatting.
 
-rules.json
+[Use example/live demo](http://pansay.github.io/frenchify)
 
-### French typography
-
-* thin non breaking space from normal space for ?!;
-* non breaking space from normal space for :
-* em dash from --
-* French quotes with non breaking spaces from regular double quotes	
-
-### Extra formatting
-
-* footnotes expected format
-
->blabla(15)
->
->(15) note about blabla
-
-## to use
-
-* cli: `node index.js yourfile.md`
-* web: `http://pansay.github.io/frenchify/`
+AngularJS implementation of [Frenchify](https://github.com/pansay/frenchify) library.
