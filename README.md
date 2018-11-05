@@ -6,7 +6,7 @@
 
 [Use example/live demo](http://pansay.github.io/frenchify)
 
-AngularJS implementation of [Frenchify](https://github.com/pansay/frenchify) library.
+AngularJS implementation of [Frenchify](https://github.com/pansay/frenchify-rules) library.
 
 ## Known issues
 
